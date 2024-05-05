@@ -1,0 +1,80 @@
+
+<!-- i use angular and this is Html file -->
+<title>Product Details Page</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+<div class="flex-box">
+    <div class="left">
+        <div class="pic">
+            <div class="images">
+                <div class="small-img" >
+                    <img src="{{image}}" style="transform: rotate(50deg);" onclick="showImg(this.src)">
+                </div>
+                <div class="small-img">
+                    <img src="{{image}}" style="transform: scaleX(-1);" onclick="showImg(this.src)">
+                </div>
+                <div class="small-img">
+                    <img src="{{image}}" style="transform: rotate(300deg)" onclick="showImg(this.src)">
+                </div>
+                <div class="small-img">
+                    <img src="{{image}}" onclick="showImg(this.src)">
+                </div>
+            </div>
+            <div class="big-img">
+                <img src="{{image}}">
+            </div>
+        </div>
+        <div class="description">
+            <p><strong>Description</strong></p>
+            <p>{{description}}</p>
+        </div>
+    </div>
+
+    <div class="right">
+        <div class="pname">{{name}}</div>
+        
+        <p><strong>{{city}}</strong></p>
+        <p><strong>1st Owner</strong></p>
+        <div class="price"><strong>{{price}} LE </strong></div>
+        
+        
+        <div class="btn-box">
+            <button class="cart-btn">Add to Cart</button>
+            <button class="buy-btn">Buy Now</button>
+        </div>
+
+        <div class="seller">
+            <p class="seller-title">Seller</p>
+            <div style="padding: 10px;">
+                <h3>{{sellarname}}</h3>
+                <div class="ratings">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+
+                    <span>1.6K Reviews</span>
+                </div>
+                
+                <div class="seller-cont-box">
+                    <button class="cont">Contact</button>
+                    <button class="view">Profle</button>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+
+    
+</div>
+
+
+
+
+<!-- 
+
+And this is css files
+enhance tha the style and made it responsive -->
+
+

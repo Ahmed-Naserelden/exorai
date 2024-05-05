@@ -1,0 +1,71 @@
+.div-one{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+}
+
+.global{
+    /* padding: 10%; */
+    position: fixed;
+    height: fit-content;
+    /* background-color: greenyellow; */
+    width: calc(75%);
+    top: 8%;
+    left: 15%;
+}
+.fone{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+img{
+    border-radius: 50%;
+}
+.info{
+    margin-left: 1%;
+}
+.boxes{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    /* width: auto; */
+    /* height: 40px; */
+}
+.box{
+    text-align: center;
+    align-items: center;
+    border: 1px black solid;
+    background-color: green;
+    color: white;
+    width: calc(100% - 90%);
+    border-radius: 10px;
+    line-height: .2;
+    /* height: min-content; */
+}
+.followers{
+    margin-left: 2%;
+}
+.products{
+    margin-left: -1%;
+}
+
+.contact-details{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.field{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.key{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.val{
+    font-size: 20px;
+}
